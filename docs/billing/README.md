@@ -18,6 +18,30 @@ The following actions are available for each product:
 * **Manage product** — click _ Manage product_ button to go to [Product Activation Keys](/dashboard/#dashboard) page and manage a product.
 * **Unsubscribe** —  click _Unsubscribe_ to cancel a product subscription. Confirm the action in the popup or click _Cancel_ to close it.
 
+## CloudLinux OS 6 Extended Lifecycle Support
+
+:::tip Note
+You don't need to convert your existing CentOS 6 system to CloudLinux OS in order to use ELS (unless you are using cPanel/WHM). Find more information [here](https://docs.els-centos.cloudlinux.com/centos6/).
+:::
+
+Starting from 1st December CloudLinux OS version 6 is End of Life ([read more](https://www.cloudlinux.com/extended-support-cloudlinux-os-6)). For those who still need to use CloudLinux OS version 6, we have launched an Extended Lifecycle Support (ELS) for CloudLinux OS version 6.
+
+**What does it mean?**
+
+If you have CloudLinux OS version 6 then it will be considered as CloudLinux OS 6 ELS server license starting from the 1st December 2020. It means that you will be additionally charged a 10% premium from your price for CloudLinux OS server license for the first year (until 30th November 2021), 20% for the second year (from 1st December 2021 until 30th November 2022), and 30% premium for the 3rd year (1st December 2022 till 30th November 2023).
+
+You will start receiving the invoice with the additional line item that will include the number of server licenses used for CloudLinux OS 6 ELS.
+
+If you do not want to use CloudLinux OS 6 ELS then you need to upgrade the version of CloudLinux OS to 7 or higher.
+
+**How does it work?**
+
+No additional actions required if you will decide to stay on CloudLinux OS version 6.
+
+As usual, you can purchase CloudLinux OS server licenses in CLN. As soon as you activate the licenses on the server we will detect the CloudLinux OS version on it. On the next billing date, you will get the invoice with the additional line item as described above for all servers running on CloudLinux OS 6.
+
+If you activate the server license on CloudLinux OS version 7 or higher then no additional charges will take place.
+
 ## Invoices
 
 Go to _Billing → Invoices_ to get all information about all your invoices.
