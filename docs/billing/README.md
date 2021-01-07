@@ -21,7 +21,7 @@ The following actions are available for each product:
 ## CloudLinux OS 6 Extended Lifecycle Support
 
 :::tip Note
-You don't need to convert your existing CentOS 6 system to CloudLinux OS in order to use ELS (unless you are using cPanel/WHM). Find more information [here](https://docs.els-centos.cloudlinux.com/centos6/).
+You don't need to convert your existing CentOS 6 system to CloudLinux OS in order to use ELS (unless you are using cPanel/WHM). Find more information [here](https://www.cloudlinux.com/extended-lifecycle).
 :::
 
 Starting from 1st December CloudLinux OS version 6 is End of Life ([read more](https://www.cloudlinux.com/extended-support-cloudlinux-os-6)). For those who still need to use CloudLinux OS version 6, we have launched an Extended Lifecycle Support (ELS) for CloudLinux OS version 6.
