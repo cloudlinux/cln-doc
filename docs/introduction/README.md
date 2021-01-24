@@ -1,7 +1,7 @@
 # Introduction
 
 
-CLN is a CloudLinux Network designed to easily manage your CloudLinux, Imunify, and KernelCare licenses and servers by means of a very simple and user-friendly interface.
+CLN stands for CloudLinux Network and is designed to easily manage your licenses of CloudLinux products and services by means of a user-friendly interface.
 
 The following are available in CLN:
 
@@ -11,14 +11,14 @@ The following are available in CLN:
 * Track all the associated costs
 
 :::tip Note
-In your CLN account you can see the licenses purchased directly from CloudLinux, not from the resellers.
+In your CLN account you can only see the licenses purchased directly from CloudLinux, not from the license resellers.
 :::
 
 
 ## Create new account
 
 
-If you are a first time user, go to [https://cln.cloudlinux.com/console/register/customer ](https://cln.cloudlinux.com/console/register/customer%20) and fill in the simple registration form to create your account. You will find your login and password in your welcome email. After activation, you can log in to the CLN.
+If you are a first time user, go to [https://cln.cloudlinux.com/console/register/customer ](https://cln.cloudlinux.com/console/register/customer%20) and fill in the simple registration form to create your account. You will find your login and password in your welcome email. After you confirm your email, you can log in to the CLN.
 
 ## Log in
 
@@ -33,3 +33,6 @@ Go to [https://cln.cloudlinux.com/console/check-license](https://cln.cloudlinux.
 
 ![](/images/serverlicensecheck_zoom70.png)
 
+:::tip Note
+Server License Check does not require signing in to the CLN portal - it is available for everyone.
+:::

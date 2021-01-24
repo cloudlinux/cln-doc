@@ -161,7 +161,6 @@ module.exports = {
               "/billing/",
               "/payment_methods/",
               "/purchase/",
-              "/help/",
               "/account_settings/",
               "/cln_for_resellers/",
               "/whmcs_plugin/"

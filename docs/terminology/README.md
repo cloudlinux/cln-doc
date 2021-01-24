@@ -8,11 +8,11 @@
 * **Server Limits** — a number of servers that can be registered with a particular key.
 * **License Type** — a type of server license that is used in Imunify360 and determines a limit of  server users. Among other products, Imunify360 has different types of server licenses:
     * **Single User** — good for servers with only one user in the system;
-    * **Up to 30 users** — good for servers with users quantity less than 30 or equal;
-    * **Up to 250 users** — good for servers with users quantity less than 250 or equal;
-    * **Unlimited** — good for servers with users quantity more than 250.
+    * **Up to 30 users** — good for servers with users quantity less than or equal to 30;
+    * **Up to 250 users** — good for servers with users quantity less than or equal to 250;
+    * **Unlimited** — good for servers with any quantity of users (more than 250).
 * **User** —  a registered user on the installed server:
     * For cPanel, Plesk, and DirectAdmin hosting panels it calculates the number of users in it, excluding system users.
-    * For standalone installation, it calculates users with UID equal or more than 500 in CentOS 6 and UID equal or more than 1000 in CentOS 7.
+    * For more details on user count calculation see the following [article](https://cloudlinux.zendesk.com/hc/en-us/articles/360017384599).
 
 

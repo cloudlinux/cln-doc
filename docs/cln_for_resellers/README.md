@@ -1,4 +1,4 @@
-# CLN For Resellers
+# CLN For IP-based Accounts
 
 :::tip Note
 You can [download](https://docs.cloudlinux.com/cloudlinux_rest_api.pdf) CloudLinux REST API documentation.
@@ -6,28 +6,13 @@ You can [download](https://docs.cloudlinux.com/cloudlinux_rest_api.pdf) CloudLin
 
 ## Registration
 
-Please contact our billing team to assist you with registration at billing@cloudlinux.com.
-
-The process of reseller registration differs from customer registration. Go to reseller registration page [https://cln.cloudlinux.com/console/register/reseller](https://cln.cloudlinux.com/console/register/reseller) and fill in the required forms.
-
-1. Choose the initial deposit amount and click _Next_.
-
-    ![](/images/clnresellerregistrationstep1_zoom90.png)
-
-2. Carefully read and accept reseller agreement.
-3. Configure payment details and click _Submit payment and continue_.
-    :::tip Note
-    Right after clicking _Submit_ the whole deposit amount will be withdrawn from an account selected as _Current Payment Method_.
-    :::
-    ![](/images/clnresellerregistrationstep3_zoom90.png)
-
-4. Specify your account login, password, email for billing, and other required information and click _Sign in_. You will find your login and password in your welcome email. After activation, you can log in to the CLN.
+Once you have a CLN account [created](/introduction/#create-new-account), contact our billing team to assist you with the account type conversion. This can be done by clicking the _Contact Support_ link at the footer of this page.
 
 ## IP Licenses Management
 
 
 IP license allows to register server only by it's IP (without a need to create a key and use it during registration).
-IP Licenses page allows resellers to add and remove IP licenses.
+IP Licenses page allows resellers to add and remove IP licenses using automated tools via API.
 
 Click required product at the top menu and then _IP Licenses_ at the left sidebar.
 ![](/images/clniplicense_zoom60.png)
@@ -53,68 +38,18 @@ The following actions are available:
 
 * Manage backup. Click ![](/images/clnmanagebackup.png). In the opened popup click _Go to the backup management_ to go to backup management system interface (opens in a new tab) or click _Cancel_ to close the popup.
 
+## Converting your account to CloudLinux OS Plus type
 
-## Server Accounts and Spacewalk Account Management
+If you need to convert all your CloudLinux OS license to CloudLinux OS+, you need to change your account to CL OS Plus type. This can be made in the Dashboard by clicking the upgrade link:
 
+![](/images/ip-based-clos-plus.png)
 
-To manage accounts using Spacewalk system via CLN UI, click _CloudLinux OS_ at the top menu and then click _Server accounts_ on the left sidebar.
-
-![](/images/clnserveraccounts_zoom60.png)
-
-The following data is available:
-
-* Total licenses on account — a total number of CloudLinux licenses on this account
-* Unused licenses — number of licenses with no server attached
-* License cost —  the cost of licenses per month
-
-The table contains the following information:
-
-* Login — Spacewalk server account login
-* First name — server owner first name
-* Last name — server owner last name
-* Company — server company-owner name
-* Email
-* Limited/used — total/used number of licenses
-* Actions
-
-The following actions are available:
-
-* Add server account. To do so, click _Add account_. The Add server account popup opens.
-
-    ![](/images/clnaddserveracc_zoom90.png)
-
-    Fill in the form and click _Add Account_ to complete the action or _Cancel_ to close the popup.
-
-* Edit server account. To do so, click ![](/images/clnedit.png). Edit server account popup opens. To save changes, click _Save account_ or click _Cancel_ to close the popup.
-* Remove server account. To do so, click ![](/images/clnremove.png). Remove account popup opens. To confirm removing, click _Remove account_ or click _Cancel_ to close the popup.
-* View server account details. To do so, click server login in the _Login_ column, the server account details page opens.
-
-    ![](/images/clnserveraccinfo_zoom60.png)
-
-The following data is available:
-
-* System 0/0 — limit and used
-* Email
-* Name — a name of server owner
-* Company — company-owner name
-
-The table contains the following information:
-
-* Token — a unique identifier for a key
-* Created — the token (key) creation date
-* Usage — number of servers registered on this key
-* Actions
-
-The following actions are available:
-
-* Create key. To do so, click _Create key_ button. A created key will be added to the table automatically without any notification.
-* Remove key. To do so, click ![](/images/clnremove.png). Key removing popup opens. Confirm the action by clicking _Remove_ or click _Cancel_ to close the popup.
-
+You can change the account type back to non CL OS Plus type anytime.
 
 ## Deposit Top Up
 
 
-Deposit top up feature is available for reseller’s accounts. Go to Billing → Balance and Top Up.
+Navigate to Billing → Balance and Top Up.
 
 ![](/images/clndeposittopup_zoom60.png)
 
@@ -125,11 +60,10 @@ If a reseller adds the Payment method, he will be able to "top up" the deposit.
 ![](/images/clntopup.png)
 
 
-
 ## Autopayments
 
 
-Autopayments feature is available for reseller’s accounts. Go to Billing → Payment Methods → Autopayment.
+Navigate to Billing → Payment Methods → Autopayment.
 
 ![](/images/clnautopayments_zoom60.png)
 
@@ -140,7 +74,6 @@ The following autopayment types are available:
 * Do not add funds automatically
 
 When you have selected and configured autopayment type, click _Save_.
-
 
 
 ## Invoices

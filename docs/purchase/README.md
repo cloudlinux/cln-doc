@@ -13,6 +13,9 @@ To pay your total due, click _Pay Now_. The _Select payment method_ popup opens.
 
 ## CloudLinux
 
+:::tip Note
+Information given in this section applies to all licenses of CloudLinux OS family (e.g. CloudLinux OS+)
+:::
 
 To buy new CloudLinux license(s) go to _Billing → Purchase_. Here you can see the number of your Server Licenses (used/limits).
 
@@ -20,8 +23,19 @@ To buy new CloudLinux license(s) go to _Billing → Purchase_. Here you can see 
 
 Specify the number of server licenses and choose _Payment method_ (monthly or yearly). Your current price is displayed on the right side. The prices depend on the number of server licenses that you already have (or will have after the purchase). The bigger the number of server licenses, the lower the price. Then click _Add to Cart_. This will activate _Cart_ menu in the top right corner of the page. To complete your purchase, click _Cart_ icon, you will be redirected to the [Cart](/purchase/#cart) page. To remove a purchase from the cart, click _Remove From Cart_ button.
 
+### CloudLinux OS Plus
+
+If you need to purchase CloudLinux OS+ licenses, you need to turn your CLN account into CL OS+ enabled:
+
+![](/images/key-based-clos-plus.png)
+
+You can revert the account type to non CL OS+ anytime by clicking the link in the same box.
+
 ## KernelCare
 
+:::tip Note
+Information given in this section applies to all licenses of KernelCare family (e.g. KernelCare+, KernelCare Enterprise)
+:::
 
 To buy new KernelCare license(s) go to _Billing → Purchase_. Here you can see the number of your Server Licenses (used/limits).
 
@@ -44,6 +58,9 @@ Then click _Add to Cart_. This will activate _Cart_ menu in the top right corner
 
 ## ELS for CentOS
 
+:::tip Note
+Information given in this section applies to all licenses of ELS family (e.g. ELS for Oracle Linux)
+:::
 
 To buy new ELS for CentOS license(s) go to _Billing → Purchase_. Here you can see the number of your Server Licenses (used/limits).
 
