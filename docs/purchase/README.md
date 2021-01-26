@@ -25,9 +25,13 @@ Specify the number of server licenses and choose _Payment method_ (monthly or ye
 
 ### CloudLinux OS Plus
 
-If you need to purchase CloudLinux OS+ licenses, you need to turn your CLN account into CL OS+ enabled:
+If you need to purchase CloudLinux OS+ licenses, you need to upgrade your CLN account into CL OS+ type:
 
 ![](/images/key-based-clos-plus.png)
+
+:::tip Note
+All CloudLinux OS licenses in your CLN account are automatically upgraded to CloudLinux OS+ if you perform the account type upgrade.
+:::
 
 You can revert the account type to non CL OS+ anytime by clicking the link in the same box.
 

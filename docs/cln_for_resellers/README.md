@@ -40,11 +40,7 @@ The following actions are available:
 
 ## Converting your account to CloudLinux OS Plus type
 
-If you need to convert all your CloudLinux OS license to CloudLinux OS+, you need to change your account to CL OS Plus type. This can be made in the Dashboard by clicking the upgrade link:
-
-![](/images/ip-based-clos-plus.png)
-
-You can change the account type back to non CL OS Plus type anytime.
+You can find the process description [here](/purchase/#cloudlinux-os-plus)
 
 ## Deposit Top Up
 
