@@ -75,17 +75,6 @@ The following actions are available:
 Default Activation Key cannot be deleted.
 :::
 
-#### CloudLinux Spacewalk
-
-
-Spacewalk is an open-source systems management solution for system provisioning, patching, and configuration.
-
-If a user bought a license directly via CLN UI (not via vendors), he can use Spacewalk to manage his servers when they have been activated with the activation key.
-
-To get to Spacewalk, go to _CloudLinux OS → Activation Keys_. On the left sidebar menu click _Open Servers_ panel, the CloudLinux Spacewalk application opens in a new tab.
-
-![](/images/clnuispacewalk_zoom70.png)
-
 #### CloudLinux Activation Key Details Page
 
 
@@ -393,6 +382,32 @@ The following actions are available:
 There are no trials available for ELS for CentOS subscription
 :::
 
+### CloudLinux Backup
+
+
+Available only if CLoudLinux Backup is purchased and activated.
+
+Click _CL Backup_ in the main header menu to go to _CloudLinux Backup_ page. Here you can see a table with all your backups for CloudLinux products.
+
+![](/images/newclnclbackup_zoom70.png)
+
+The table includes  the following columns:
+
+* **Server name** — a name of the server with backup
+* **Server IP** —  displays the IP of the server with backup
+* **Region** —  server location
+* **Used, GB** — backup space used in GB
+* **Total, GB** — total backup space in GB
+* **Actions**:
+    * **Edit** —  click to manage the backup. In the opened popup click _Go to the backup management_, the backup management application opens in a new tab
+    * **Resize** — click to change the backup space. In the opened popup add or remove the Gbs and click _Resize_ to apply or _Cancel_ to close the popup.
+    * **Deactivate** — click to remove the backup.
+    :::tip Note
+    Backup files cannot be restored after deactivation.
+    :::
+    In the opened popup confirm the action by clicking _Remove_ or click _Cancel_ to close the popup.
+    * **Relink** —  for a backup not associated with a server. Click to connect a backup to a specific server. Confirm the action in the popup or click _Cancel_ to close the popup.
+
 ## Servers
 
 
@@ -501,35 +516,5 @@ The _Server groups_ feature allows you to add servers in one group and perform g
 
 * The server(s) will be moved to another group 
 
-  
 
-
-
-
-
-## CloudLinux Backup
-
-
-Available only if CLoudLinux Backup is purchased and activated.
-
-Click _CL Backup_ in the main header menu to go to _CloudLinux Backup_ page. Here you can see a table with all your backups for CloudLinux products.
-
-![](/images/newclnclbackup_zoom70.png)
-
-The table includes  the following columns:
-
-* **Server name** — a name of the server with backup
-* **Server IP** —  displays the IP of the server with backup
-* **Region** —  server location
-* **Used, GB** — backup space used in GB
-* **Total, GB** — total backup space in GB
-* **Actions**:
-    * **Edit** —  click to manage the backup. In the opened popup click _Go to the backup management_, the backup management application opens in a new tab
-    * **Resize** — click to change the backup space. In the opened popup add or remove the Gbs and click _Resize_ to apply or _Cancel_ to close the popup.
-    * **Deactivate** — click to remove the backup.
-    :::tip Note
-    Backup files cannot be restored after deactivation.
-    :::
-    In the opened popup confirm the action by clicking _Remove_ or click _Cancel_ to close the popup.
-    * **Relink** —  for a backup not associated with a server. Click to connect a backup to a specific server. Confirm the action in the popup or click _Cancel_ to close the popup.
 

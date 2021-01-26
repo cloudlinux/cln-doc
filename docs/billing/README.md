@@ -7,15 +7,15 @@ Click _Billing → Overview_ to go to _Products_ page. On _Products_ page you ca
 
 The following information is available:
 
-* **Server licenses** — displays the number of servers activated within each product.
-* **Paid until** — a date of the next payment.
+* **Server licenses** — displays the number of servers activated for each product.
+* **Paid until** — the date of the next payment.
 
 ![](/images/billing_zoom70.png)
 
 The following actions are available for each product:
 
-* **Add more licenses** — click _Add more licenses_ and you will be redirected to [Product Purchase](/purchase/#purchase) page.
-* **Manage product** — click _ Manage product_ button to go to [Product Activation Keys](/dashboard/#dashboard) page and manage a product.
+* **Add more licenses** — click _Add more licenses_ and you will be redirected to the [Product Purchase](/purchase/#purchase) page.
+* **Manage product** — click the _Manage product_ button to go to the [Product Activation Keys](/dashboard/#dashboard) page and manage a product.
 * **Unsubscribe** —  click _Unsubscribe_ to cancel a product subscription. Confirm the action in the popup or click _Cancel_ to close it.
 
 ## CloudLinux OS 6 Extended Lifecycle Support

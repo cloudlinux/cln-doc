@@ -26,12 +26,14 @@ The table contains the following information:
 * Type —  license type for this server
 * Actions
 
+### Actions
+
 The following actions are available:
 
+* Add IP to this license. Click _Add IP_ button. In the opened popup specify IP and product type (for Imunify360 licenses only) and click _Add IP_ to complete the action or _Cancel_ to close the popup.
+* Remove IP from using this license. Tick IP(s) and click _Bin_ icon in the IP line or above the table for bulk action.
 * Filter servers list by IP and product type. Click _IP_ and select an IP, or click _Product Type_ and select a product.
 * Search in the list by a specific query. Type a search query in the search field to show specific servers.
-* Remove IP from using this license. Tick IP(s) and click _Bin_ icon in the IP line or above the table for bulk action.
-* Add IP to this license. Click _Add IP_ button. In the opened popup specify IP and product type (for Imunify360 licenses only) and click _Add IP_ to complete the action or _Cancel_ to close the popup.
 * Activate backup. Click ![](/images/clnactivatebackup.png). In the opened popup specify backup size and datacenter and click _Create_ to complete the action or Cancel to close the popup.
   
     ![](/images/clncreatebackup_zoom70.png)
