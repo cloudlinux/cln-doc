@@ -1,7 +1,7 @@
 # Purchase
 
 
-On the _Purchase_ page, you can buy new CloudLinux, KernelCare, Imunify360 or ELS for CentOS licenses and pay for your current licenses to continue using the products on your servers.
+On the _Purchase_ page, you can buy new CloudLinux, KernelCare, Imunify360 or ELS licenses and pay for your current licenses to continue using the products on your servers.
 
 :::warning
 You cannot purchase both monthly and yearly licenses for the same product in a single account.
@@ -60,13 +60,13 @@ Specify the number of server licenses for each License Type (Single User, Up to 
 
 Then click _Add to Cart_. This will activate _Cart_ menu in the top right corner of the page. To complete your purchase, click _Cart_ icon, you will be redirected to the [Cart](/purchase/#cart) page. To remove a purchase from the cart, click _Remove From Cart_ button.
 
-## ELS for CentOS
+## ELS
 
 :::tip Note
-Information given in this section applies to all licenses of ELS family (e.g. ELS for Oracle Linux)
+Information given in this section applies to all licenses of ELS family (e.g. ELS for Oracle Linux, ELS for Ubuntu)
 :::
 
-To buy new ELS for CentOS license(s) go to _Billing → Purchase_. Here you can see the number of your Server Licenses (used/limits).
+To buy new ELS license(s) go to _Billing → Purchase_. Here you can see the number of your Server Licenses (used/limits).
 
 ![](/images/purchaseels_zoom70.png)
 

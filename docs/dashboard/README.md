@@ -28,7 +28,7 @@ The following actions are available:
 ### Trial Activation
 
 :::warning
-There are no trials available for ELS for CentOS subscription
+There are no trials available for the ELS subscription
 :::
 
 On the _Product_ tab a user can activate a trial license if trial product hasn't been activated yet.
@@ -376,10 +376,10 @@ The following actions are available:
 * **Search in the list by specific query**. Type a search query in the search field to show specific servers.
 * **Remove a server from this activation key**. In this case, a server will not be protected by Imunify360 anymore. To do that, tick server(s) and click _Bin_ icon above the table.
 
-### ELS for CentOS Activation Keys
+### ELS Activation Keys
 
 :::warning
-There are no trials available for ELS for CentOS subscription
+There are no trials available for the ELS subscription
 :::
 
 ### CloudLinux Backup
