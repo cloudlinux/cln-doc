@@ -63,7 +63,7 @@ Then click _Add to Cart_. This will activate _Cart_ menu in the top right corner
 ## ELS
 
 :::tip Note
-Information given in this section applies to all licenses of ELS family (e.g. ELS for Oracle Linux, ELS for Ubuntu)
+Information given in this section applies to all licenses of ELS family (e.g. ELS for CentOS, ELS for Oracle Linux, ELS for Ubuntu)
 :::
 
 To buy new ELS license(s) go to _Billing → Purchase_. Here you can see the number of your Server Licenses (used/limits).
