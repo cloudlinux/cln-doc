@@ -7,9 +7,7 @@ Dashboard helps quickly navigate to user's _Products_. It includes the following
 * [Servers](/dashboard/#servers)
 * [CloudLinux Backup](/dashboard/#cloudlinux-backup)
 
-
-#### Products
-
+### Products
 
 Click _Dashboard_. You will be redirected to the _Products_ page.
 
