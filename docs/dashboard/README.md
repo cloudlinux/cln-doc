@@ -7,7 +7,9 @@ Dashboard helps quickly navigate to user's _Products_. It includes the following
 * [Servers](/dashboard/#servers)
 * [CloudLinux Backup](/dashboard/#cloudlinux-backup)
 
+
 ## Products
+
 
 Click _Dashboard_. You will be redirected to the _Products_ page.
 
@@ -38,8 +40,6 @@ Just click _Free Trial_ and proceed with trial activation instructions.
 Also, a user is able to activate trial license from the _Purchase_ page.
 
 ![](/images/fretrialpurchase_zoom70.png)
-
-## CloudLinux OS
 
 ### CloudLinux OS Activation Keys
 
@@ -120,7 +120,6 @@ The following actions are available:
 * **Search** in the list by a specific text. Type a search query in the search field to show specific servers.
 * **Remove** a server from this activation key. In this case, a server will not be able to use CloudLinux OS anymore. To do that, tick server(s) and click _Bin_ icon above the table.
 
-## KernelCare 
 
 ### KernelCare Activation Keys
 
@@ -235,8 +234,6 @@ This way, you can add new patches to all the servers in some environment (i.e. r
 #### KernelCare Monitoring
 
 Find more details in [KernelCare documentation](https://docs.kernelcare.com/kc-agent-monitoring/)
-
-## Imunify360
 
 ### Imunify360 License Types
 
@@ -379,6 +376,12 @@ The following actions are available:
 * **Search in the list by specific query**. Type a search query in the search field to show specific servers.
 * **Remove a server from this activation key**. In this case, a server will not be protected by Imunify360 anymore. To do that, tick server(s) and click _Bin_ icon above the table.
 
+### ELS Activation Keys
+
+:::warning
+There are no trials available for the ELS subscription
+:::
+
 ### CloudLinux Backup
 
 
@@ -405,14 +408,6 @@ The table includes  the following columns:
     In the opened popup confirm the action by clicking _Remove_ or click _Cancel_ to close the popup.
     * **Relink** —  for a backup not associated with a server. Click to connect a backup to a specific server. Confirm the action in the popup or click _Cancel_ to close the popup.
 
-## ELS	
-	
-### ELS Activation Keys
-
-:::warning
-There are no trials available for the ELS subscription
-:::	
-	
 ## Servers
 
 
