@@ -80,15 +80,18 @@ If your hosting requires specific files permissions, change them accordingly in 
 6. Go to the <span class="notranslate">_Module Settings_</span> tab and select <span class="notranslate">**_CloudLinux Licenses_**</span> from <span class="notranslate">_Module Name_</span> drop-down.
 7. Fill <span class="notranslate">_Username_</span> and <span class="notranslate">_Password_</span> with your CloudLinux API access details (you can find them on your CLN profile page, username is your login and password is API secret key) and select <span class="notranslate">**_Imunify360_**</span> from <span class="notranslate">_Product_</span> drop-down, then choose desired <span class="notranslate">_License Type_</span>. If you'd like to use key based licenses, tick <span class="notranslate">_Create Key based license_</span> checkbox.
 8. Click <span class="notranslate">_Save Changes_</span> to confirm.
-9. Setup desired <span class="notranslate">_Auto-setup_</span> options.
+9. If you want to use a custom field to get the correct IP during order, you can fill the _Name of the custom IP_ field and add a custom field with the same name to the main product. For example:
+   * linked CloudLinuxLicenses product
+      ![](/images/LinkedCLProducts.png)
+   * main product
+      ![](/images/MainProduct.png)
+10.  Setup desired <span class="notranslate">_Auto-setup_</span> options.
 
-:::tip Note
-You can use the CloudLinux license module as an individual product. By default, for IP license a client’s IP address defined while ordering is used. You can change license IP in service settings (as an administrator or a user). If you want to use a custom field to get the correct IP during the order, you should create a custom field with any field name where IP phrase is used.
+:::tip Notes
+* You can use the CloudLinux license module as an individual product. By default, for IP license the client’s IP address is used on ordering, after ordering you can change the license IP to a desired one in the service settings (as administrator or user). 
+* To create CloudLinuxOS+ licenses you should have an appropriate CLN account and use the same `CloudLinux` in the product module settings.
+* Products with `KernelCare+` can create only IP based licenses.
 :::
-
-Example:
-
-![](/images/WHMCSCustomField.png)
 
 
 ### Configuration of Add-on
