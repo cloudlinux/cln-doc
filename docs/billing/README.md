@@ -35,7 +35,7 @@ You will start receiving the invoice with the additional line item that will inc
 If you do not want to use CloudLinux OS 6 ELS then you need to upgrade the version of CloudLinux OS to 7 or higher.
 
 :::tip Note
-There are no additional charges for ELS if you are using [CloudLinux OS+](https://www.cloudlinux.com/cloudlinux-os-plus) (Plus)
+There are no additional charges for ELS if you are using [CloudLinux OS Shared PRO](https://www.cloudlinux.com/cloudlinux-os-plus)
 :::
 
 **How does it work?**

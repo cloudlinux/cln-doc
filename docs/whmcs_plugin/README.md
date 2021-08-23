@@ -89,7 +89,7 @@ If your hosting requires specific files permissions, change them accordingly in 
 
 :::tip Notes
 * You can use the CloudLinux license module as an individual product. By default, for IP license the client’s IP address is used on ordering, after ordering you can change the license IP to a desired one in the service settings (as administrator or user). 
-* To create CloudLinuxOS+ licenses you should have an appropriate CLN account and use the same `CloudLinux` in the product module settings.
+* To create CloudLinux OS Shared PRO licenses you should have an appropriate CLN account and use the same `CloudLinux` in the product module settings.
 * Products with `KernelCare+` can create only IP based licenses.
 :::
 
