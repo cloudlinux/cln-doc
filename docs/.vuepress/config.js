@@ -123,8 +123,8 @@ module.exports = {
 //            url: "https://www.cloudlinux.com/getting-started-with-cloudlinux-os"
 //          },
           {
-            text: "Contact support",
-            url: "https://www.cloudlinux.com/contact/"
+            text: "Submit request",
+            url: "https://cloudlinux.zendesk.com/hc/en-us/requests/new"
           },
           { text: "Blog", url: "https://blog.cloudlinux.com/tag/cln" }
         ],
