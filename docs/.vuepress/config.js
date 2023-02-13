@@ -166,7 +166,8 @@ module.exports = {
               "/purchase/",
               "/account_settings/",
               "/cln_for_resellers/",
-              "/whmcs_plugin/"
+              "/whmcs_plugin/",
+              "/whmcs_awp_plugin/"
             ]
           }
         ]
