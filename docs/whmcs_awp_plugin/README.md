@@ -6,7 +6,7 @@
 
 AccelerateWP Addon for WHMCS automatically configures "Configurable options" that can be linked to the Product/Service.
 
-When a client orders/upgrade a configurable option, a request will be sent to the server to set the Allowed/Disallowed status for AccelerarteWP Premium features.
+When a client orders/upgrade a configurable option, a request will be sent to the server to set the Allowed/Default status for AccelerateWP Premium features.
 
 ## Installation and Configuration
 
@@ -114,13 +114,31 @@ Example of a successful request
 The addon tracks the change in the order and services of the client.  
 For those client services that have the configurable options "AccelerateWP", a request is sent to the server to change the status of AccelerateWP products.
 
-Requests are sent by cron once at the beginning of every minute.
+Requests are sent by cron once at the beginning of every minute. If the request fails, there will be a retry after 3 seconds.
 
 Information about the servers to which requests were sent can be viewed on the addon page.
 
 If an error occurs, you will be able to retry the request on the addon page.
 
-The AccelerateWP module enters the "Allowed" status when the client service's status is set to "Active" and the configurable options "On" is selected.
+The AccelerateWP module enters the "Allowed" status when the client service's status is set to "Active" and the configurable options "On" is selected. In other cases, the status will be set to "Default" and the feature will be turned off for user.
+
+### How to automatically open the "Upgrade/Downgrade Options" page?
+
+Parameters can be used to determine the billing account of the user in order to display proper page.
+WHMCS plugin already has automatic redirect to upgrade page, there is only needed to set upgrade-url
+to the root of your WHMCS instance.
+
+```
+https://your.whmcs.com/?m=acceleratewp&action=provisioning&username=democom&domain=demo.com&server_ip=10.51.0.10
+```
+
+| Parameter | Value        | Description                                              |
+|-----------|--------------|----------------------------------------------------------|
+| m         | acceleratewp | Constant.                                                |
+| action    | provisioning | Constant.                                                |
+| username  | democom      | Customer's account name.                                 |
+| domain    | demo.com     | Customer's account primary domain.                       |
+| server_ip | 10.51.0.10   | Primary IP of the server where AccelerateWP is installed |
 
 ## Plesk extension
 
