@@ -120,7 +120,7 @@ Information about the servers to which requests were sent can be viewed on the a
 
 If an error occurs, you will be able to retry the request on the addon page.
 
-The AccelerateWP module enters the "Allowed" status when the client service's status is set to "Active" and the configurable options "On" is selected. In other cases, the status will be set to "Default".
+The AccelerateWP module enters the "Allowed" status when the client service's status is set to "Active" and the configurable options "On" is selected. In other cases, the status will be set to "Default" and the feature will be turned off for user.
 
 ### How to automatically open the "Upgrade/Downgrade Options" page?
 
