@@ -6,11 +6,11 @@
 
 AccelerateWP Addon for WHMCS automatically configures "Configurable options" that can be linked to the Product/Service.
 
-When a client orders/upgrade a configurable option, a request will be sent to the server to set the Allowed/Default status for AccelerateWP Premium features.
+When a client orders/upgrade a configurable option, a request will be sent to the server to set the Allowed/Default status for AccelerateWP Premium/Cdn features.
 
 ## Installation and Configuration
 
-### Installation
+### Installation and Update
 
 1. Your WHMCS must be properly configured to work with cron because sending requests to the server is sent by cron. [How to setting up the cron](https://docs.whmcs.com/Crons#Setting_up_the_Cron_Tasks).
 2. Plesk requires the installation of an additional [extension](#plesk-extension).
@@ -35,12 +35,16 @@ unzip whmcs-awp-plugin-latest.zip -d <whmcs_root>/modules/addons
 </div>
 
 4. If your hosting requires specific files permissions, change them accordingly in the folder: <span class="notranslate">`<whmcs_root>/modules/addons/acceleratewp`</span>
-5. Go to the admin panel page WHMCS/System settings/Addon Modules, activate "AccelerateWP Addon"
+5. Go to the admin panel page "WHMCS/System Settings/Addon Modules", activate "AccelerateWP Addon"
 ![](/images/whmcs-awp-admin-addon-activate.png)
 6. Configure addon:
    1. Enable debug mode if necessary. Logs are stored in the "System Module Debug Log"
    2. Allow administrator access to the addon page to view information about the status of the servers
 ![](/images/whmcs-awp-admin-addon-configure.png)
+
+:::tip Notes
+When upgrading to a new version, be sure to open the "WHMCS/System Settings/Addon Modules" page to apply the module changes.
+:::
 
 ### Setting prices for "Configurable options"
 
@@ -50,13 +54,14 @@ During addon activation, "Configurable options" AccelerateWP are created automat
 Don't change the name of the group, options and sub-options!
 :::
 
-![](/images/whmcs-awp-admin-config-option.png)
+![](/images/whmcs-awp-admin-config-option.png?1)
 
 In the AccelerateWP group settings, you need to configure:
 * Choose for which products (cPanel/Plesk) you can additionally order the service.
 * For the "accelerate_wp_premium|AccelerateWP Premium" option, set the cost.
-
-In the option price settings, there are two options, On and Off. Adjust prices as you see fit.
+  * In the option price settings, there are two options, On and Off. Adjust prices as you see fit.
+* For the "accelerate_wp_cdn|AccelerateWP CDN" option, set the cost.
+   * In the option price settings, there are two options, 1GB Free and 50GB. Adjust prices as you see fit.
 
 ![](/images/whmcs-awp-admin-config-option-price.png)
 
@@ -67,14 +72,14 @@ Set up your service to work with "Configurable options" in the "System settings/
 1. Choose the payment type, One time or Recurrent.
 ![](/images/whmcs-awp-admin-product-price.png)
 2. Make sure the product is associated with the Configurable option "AccelerateWP"
-![](/images/whmcs-awp-admin-product-config-option.png)
+![](/images/whmcs-awp-admin-product-config-option.png?1)
 3. Allow clients to upgrade Configurable options so they can purchase AccelerateWP for existing subscriptions.
 ![](/images/whmcs-awp-admin-product-upgrades.png)
 4. Save changes.
 5. Existing customers can upgrade their AccelerateWP Premium settings by changing the order using the "Upgrade/Downgrade options" button.
 ![](/images/whmcs-awp-admin-ui-upgrade-config-option.png)
 6. New customers will be able to select AccelerateWP settings during order creation
-![](/images/whmcs-awp-admin-ui-new-config-option.png)
+![](/images/whmcs-awp-admin-ui-new-config-option.png?1)
 7. The administrator can manually change the setting of AccelerateWP by editing the purchased service by the customer
 ![](/images/whmcs-awp-admin-service-change-config-option.png)
 
@@ -99,13 +104,10 @@ Deactivating the addon will delete the table with the history of AccelerateWP ac
 | Action  | Send request manually                                                                                                                                                                                                                                                                                     |
 
 An example of a request that will be executed by cron
-![](/images/whmcs-awp-admin-addon-page-example-cron.png)
+![](/images/whmcs-awp-admin-addon-page-example-cron.png?1)
 
 An example of a request that failed
-![](/images/whmcs-awp-admin-addon-page-example-error.png)
-
-Example of a successful request
-![](/images/whmcs-awp-admin-addon-page-example-success.png)
+![](/images/whmcs-awp-admin-addon-page-example-error.png?1)
 
 ### FAQ
 
@@ -122,7 +124,7 @@ If an error occurs, you will be able to retry the request on the addon page.
 
 The AccelerateWP module enters the "Allowed" status when the client service's status is set to "Active" and the configurable options "On" is selected. In other cases, the status will be set to "Default" and the feature will be turned off for user.
 
-### How to automatically open the "Upgrade/Downgrade Options" page?
+#### How to automatically open the "Upgrade/Downgrade Options" page?
 
 Parameters can be used to determine the billing account of the user in order to display proper page.
 WHMCS plugin already has automatic redirect to upgrade page, there is only needed to set upgrade-url
@@ -132,13 +134,14 @@ to the root of your WHMCS instance.
 https://your.whmcs.com/?m=acceleratewp&action=provisioning&username=democom&domain=demo.com&server_ip=10.51.0.10
 ```
 
-| Parameter | Value        | Description                                              |
-|-----------|--------------|----------------------------------------------------------|
-| m         | acceleratewp | Constant.                                                |
-| action    | provisioning | Constant.                                                |
-| username  | democom      | Customer's account name.                                 |
-| domain    | demo.com     | Customer's account primary domain.                       |
-| server_ip | 10.51.0.10   | Primary IP of the server where AccelerateWP is installed |
+| Parameter | Value                 | Description                                                                                                             |
+|-----------|-----------------------|-------------------------------------------------------------------------------------------------------------------------|
+| m         | acceleratewp          | Constant.                                                                                                               |
+| action    | provisioning          | Constant.                                                                                                               |
+| username  | democom               | Customer's account name.                                                                                                |
+| domain    | demo.com              | Customer's account primary domain.                                                                                      |
+| server_ip | 10.51.0.10            | Primary IP of the server where AccelerateWP is installed.                                                               |
+| suite     | accelerate_wp_premium | Optional. To display the settings of the specified suite only. Options: accelerate_wp_premium or accelerate_wp_cdn_pro. |
 
 ## Plesk extension
 
@@ -193,12 +196,23 @@ The Plesk extension is available since accelerate-wp-1.3-2 version
 3. Select the action "Upgrade/Downgrade Options"
    ![](/images/whmcs-awp-user-services-config-option-upgrade.png)
 4. Choose a new configuration and place an order
-   ![](/images/whmcs-awp-user-services-config-option-change.png)
+   ![](/images/whmcs-awp-user-services-config-option-change.png?1)
 5. Changes will occur automatically after 1 minute or after confirmation of the order by the service provider
 
 ### How to checkout new order
 
 1. Select a service in the service provider's WHMCS portal
-2. Services with AccelerateWP enabled will display an option to configure AccelerateWP Premium.
+2. A service with AccelerateWP enabled will display options to enable them
    ![](/images/whmcs-awp-user-order.png)
 3. Changes will occur automatically after 1 minute or after confirmation of the order by the service provider
+4. After purchase, you need to manually activate the modules in the AccelerateWP panel
+
+## Changelog
+
+* 0.0.2
+  * Added the ability to purchase AccelerateWP CDN
+  * Improved display of service and server names on the AccelerateWP module page
+  * Added the ability to hide suites on the update options page
+
+* 0.0.1
+  * Betta release
