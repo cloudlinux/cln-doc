@@ -32,7 +32,7 @@ CloudLinux Licenses For WHMCS allows you to automatically provision CloudLinux, 
 **Additionally**
 
 * Multi-Language Support – only provisioning module
-* Supports CloudLinux, KernelCare and Imunify360 Licenses
+* Supports CloudLinux, KernelCare and Imunify360 Licenses (<span class="notranslate">_does not support CloudLinux Pro licenses, it should be supported soon in 2023_</span>)
 * Supports WHMCS V6 and later
 
 
