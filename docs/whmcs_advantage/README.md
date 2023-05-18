@@ -229,7 +229,7 @@ The Plesk extension is available since accelerate-wp-1.3-2 version
   * Changed "m" parameter in provisioning link (upgrade url) from accelerate_wp to cloudlinux_advantage
 
 * 0.0.1
-  * Betta release
+  * Beta release
 
 ## Requirements
 
