@@ -6,7 +6,7 @@
 
 CloudLinux Advantage for WHMCS automatically configures "Configurable options" that can be linked to the Product/Service.
 
-When a client orders/upgrade a configurable option, a request will be sent to the server to set the Enable/Disable status for CloudLinux features.
+When a client orders/upgrade a configurable option, a request will be sent to the server to change the CloudLinux features status.
 
 ## Installation and Configuration
 
