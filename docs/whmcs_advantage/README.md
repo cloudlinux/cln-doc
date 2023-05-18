@@ -140,7 +140,7 @@ If you previously had version 0.0.1 of the module installed, you need to perform
 * Follow the process for installing the module version 0.0.2
 * The module will automatically update the database
 * After that, you can deactivate and remove the old module AccelerateWP 0.0.1 (`<whmcs_root>/modules/addons/acceleratewp`)
-* If you are using the [extension](#plesk-extension), you need to update it to the latest version from the "accelerate-wp 1.5-1" package
+* If you are using the [extension](#plesk-extension), you need to update it to the latest version from the "accelerate-wp-1.5-1" package
 
 ```
 https://your.whmcs.com/?m=cloudlinux_advantage&action=provisioning&username=democom&domain=demo.com&server_ip=10.51.0.10
@@ -230,3 +230,13 @@ The Plesk extension is available since accelerate-wp-1.3-2 version
 
 * 0.0.1
   * Betta release
+
+## Requirements
+
+* 0.0.2
+  * WHMCS ^8.0
+  * accelerate-wp-1.5-1
+
+* 0.0.1
+  * WHMCS ^8.0
+  * accelerate-wp-1.3-2
